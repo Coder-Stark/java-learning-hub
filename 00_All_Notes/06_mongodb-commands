@@ -1,0 +1,10 @@
+-> show dbs                                     //shows all dbs name
+-> db                                           //shows current db name
+-> show collection                              //show all collections of current db
+-> db.<collection_name>.insertOne({             //insert documents in collection
+    "name":"shivam", "age": 24
+    });       //insert in that db
+-> db.<collection_name>.find()                          //shows all documents
+-> db.<collection_name>.find().pretty()                 //show all documents in good way
+-> db.<collection_name>.deleteOne({name: "shivam"})     //delete particualr entry (document)
+
